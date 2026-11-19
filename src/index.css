@@ -1,0 +1,176 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FAF8F5;
+  }
+  
+  h1, h2, h3, .font-serif-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    letter-spacing: -0.01em;
+  }
+
+  .font-brand-cinzel {
+    font-family: 'Cinzel', serif !important;
+  }
+
+  .font-provenance {
+    font-family: 'Newsreader', Georgia, serif;
+  }
+}
+
+/* Dark mode theme adaptations */
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  background-color: #0c0a09;
+  color: #f5f5f4;
+}
+
+html.dark .bg-\[\#FAF8F5\],
+html.dark .bg-\[\#F9F9FB\] {
+  background-color: #0c0a09 !important;
+}
+
+html.dark .bg-white {
+  background-color: #1c1917 !important;
+  color: #f5f5f4;
+}
+
+html.dark .bg-white\/80 {
+  background-color: rgba(28, 25, 23, 0.85) !important;
+}
+
+html.dark .bg-stone-50 {
+  background-color: #1c1917 !important;
+  color: #f5f5f4;
+}
+
+html.dark .bg-stone-100 {
+  background-color: #292524 !important;
+}
+
+html.dark .text-stone-900,
+html.dark .text-stone-950 {
+  color: #fafaf9 !important;
+}
+
+html.dark .text-stone-800 {
+  color: #f5f5f4 !important;
+}
+
+html.dark .text-stone-700 {
+  color: #e7e5e4 !important;
+}
+
+html.dark .text-stone-600 {
+  color: #d6d3d1 !important;
+}
+
+html.dark .text-stone-500 {
+  color: #a8a29e !important;
+}
+
+html.dark .text-stone-400 {
+  color: #78716c !important;
+}
+
+html.dark .border-stone-200,
+html.dark .border-stone-200\/80,
+html.dark .border-stone-100 {
+  border-color: #292524 !important;
+}
+
+html.dark input:not([type="checkbox"]):not([type="radio"]),
+html.dark select,
+html.dark textarea {
+  background-color: #1c1917 !important;
+  color: #f5f5f4 !important;
+  border-color: #292524 !important;
+}
+
+html.dark header {
+  background-color: rgba(12, 10, 9, 0.9) !important;
+  border-color: #292524 !important;
+}
+
+html.dark footer {
+  background-color: rgba(12, 10, 9, 0.9) !important;
+  border-color: #292524 !important;
+}
+
+/* Custom dark hex colors used in headings, callouts & badges */
+html.dark .text-\[\#2A2118\],
+html.dark .text-\[\#2B2117\],
+html.dark .text-\[\#34291B\] {
+  color: #fafaf9 !important;
+}
+
+html.dark .bg-\[\#FAF2E6\] {
+  background-color: rgba(120, 53, 15, 0.25) !important;
+  color: #fde68a !important;
+}
+
+html.dark .border-\[\#E0D0B6\] {
+  border-color: rgba(217, 119, 6, 0.35) !important;
+}
+
+/* Alert boxes, chips & notification banners in dark mode */
+html.dark .bg-amber-50,
+html.dark .bg-amber-50\/70,
+html.dark .bg-amber-50\/50,
+html.dark .bg-amber-100 {
+  background-color: rgba(120, 53, 15, 0.25) !important;
+}
+
+html.dark .text-amber-950,
+html.dark .text-amber-900,
+html.dark .text-amber-800 {
+  color: #fde68a !important;
+}
+
+html.dark .border-amber-200,
+html.dark .border-amber-300 {
+  border-color: rgba(217, 119, 6, 0.4) !important;
+}
+
+html.dark .bg-emerald-50,
+html.dark .bg-emerald-50\/70,
+html.dark .bg-emerald-50\/50,
+html.dark .bg-emerald-50\/30 {
+  background-color: rgba(6, 78, 59, 0.3) !important;
+}
+
+html.dark .text-emerald-950,
+html.dark .text-emerald-900,
+html.dark .text-emerald-800,
+html.dark .text-emerald-700 {
+  color: #a7f3d0 !important;
+}
+
+html.dark .border-emerald-200,
+html.dark .border-emerald-100 {
+  border-color: rgba(5, 150, 105, 0.4) !important;
+}
+
+html.dark .bg-red-50,
+html.dark .bg-red-50\/70 {
+  background-color: rgba(127, 29, 29, 0.25) !important;
+}
+
+html.dark .text-red-950,
+html.dark .text-red-900,
+html.dark .text-red-800,
+html.dark .text-red-700 {
+  color: #fca5a5 !important;
+}
+
+html.dark .border-red-200 {
+  border-color: rgba(220, 38, 38, 0.4) !important;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Antique Bidding Marketplace",
+  "description": "Verified antique auction marketplace with buyer and seller modes, live bidding starting from Rs. 300, previous exchanges archive, and secure private deal chats.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

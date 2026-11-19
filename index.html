@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Antiauc - Antique Bidding Marketplace</title>
+    <meta name="description" content="Antiauc - Verified antique auction marketplace with buyer and seller modes, live bidding, previous exchanges archive, and secure private deal chats." />
+    <meta property="og:site_name" content="Antiauc Marketplace" />
+    <meta property="og:title" content="Antiauc - Antique Bidding Marketplace" />
+    <meta property="og:description" content="Antiauc - Verified antique auction marketplace with buyer and seller modes, live bidding, previous exchanges archive, and secure private deal chats." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/antiauc-logo.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Antiauc - Antique Bidding Marketplace" />
+    <meta name="twitter:description" content="Antiauc - Verified antique auction marketplace with buyer and seller modes, live bidding, previous exchanges archive, and secure private deal chats." />
+    <meta name="twitter:image" content="/antiauc-logo.webp" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <script type="application/ld+json" id="antiauc-schema-structured-data">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Antiauc",
+          "description": "Verified Antique Auction Marketplace with Live Bidding",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "/?search={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "WebApplication",
+          "name": "Antiauc - Antique Bidding Marketplace",
+          "applicationCategory": "AuctionApplication",
+          "operatingSystem": "All modern web browsers",
+          "description": "Verified antique auction marketplace with buyer and seller modes, live bidding starting from Rs. 300, and secure private deal chats.",
+          "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "LKR",
+            "lowPrice": "300"
+          }
+        }
+      ]
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#F9F9FB] text-stone-900 antialiased selection:bg-amber-500/20 selection:text-stone-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
