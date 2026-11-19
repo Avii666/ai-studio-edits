@@ -135,7 +135,7 @@ const MainLayout: React.FC = () => {
               </span>
             </div>
             <p className="text-stone-500 font-provenance text-xs leading-relaxed">
-              A verified antique bidding marketplace safeguarding collectors and authentic dealers. Seller listings are currently free, and personal contact numbers remain masked to prevent off-platform fraud.
+              An exclusive marketplace for fine antiques, heirloom timepieces, and historical treasures, curated for collectors who value authenticity and heritage.
             </p>
           </div>
 
